@@ -1,5 +1,14 @@
 @import "reset.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap");
+
+@import "css/clock.css";
+@import "css/login.css";
+@import "css/quote.css";
+@import "css/todo.css";
+@import "css/weather.css";
+
 /*Body*/
 body {
   width: 100vw;
@@ -33,36 +42,8 @@ body {
 }
 .right {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: end;
   width: 70vw;
   height: 100vh;
-}
-
-/*Log in*/
-.hidden {
-  display: none;
-}
-#login-form {
-  margin-top: 15px;
-}
-
-#login-form input {
-  text-align: center;
-  padding: 10px;
-}
-
-/*Clock*/
-
-/*Quote*/
-#quote {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 35vw;
-}
-.quote,
-.author {
-  color: white;
-  font-size: 20px;
 }

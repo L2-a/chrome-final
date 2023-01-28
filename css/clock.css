@@ -1,0 +1,29 @@
+/*Clock*/
+.clock__div {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 80%;
+  height: 13%;
+  border-radius: 20px;
+  background-color: rgba(66, 66, 60, 0.377);
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 7px 15px 8px rgba(0, 0, 0, 0.178);
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  font-family: "Oswald", sans-serif;
+  font-size: 150%;
+  font-weight: 700;
+}
+
+#clock {
+  margin-top: 2%;
+  font-family: "Oswald", sans-serif;
+  font-size: 200%;
+  font-weight: 900;
+}
