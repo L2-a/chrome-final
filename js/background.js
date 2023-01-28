@@ -3,7 +3,7 @@ const images = [
   "../photo/ben.jpg",
   "../photo/london-black.jpg",
   "../photo/london.jpg",
-  "../photo/london.jpg",
+  "../photo/london-night.jpg",
   "../photo/pink-sky.jpg",
   "../photo/star-tree.jpg",
 ];

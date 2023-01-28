@@ -12,18 +12,36 @@
     <div class="content">
       <div class="left">
         <!--Login-->
-        <form id="login-form">
-          <input
-            required
-            maxlength="15"
-            type="text"
-            placeholder="Please write your name"
-          />
-          <button>Log In</button>
-        </form>
+        <div class="login">
+          <form id="login-form" class="hidden">
+            <input
+              required
+              style="
+                border: none;
+                background-color: transparent;
+                font-size: 20px;
+                border-bottom: 3px solid white;
+              "
+              maxlength="15"
+              type="text"
+              placeholder="Please write your name"
+            />
+            <button
+              style="
+                border: none;
+                background-color: transparent;
+                font-size: 20px;
+              "
+            >
+              Log In
+            </button>
+          </form>
+          <h1 class="hidden" id="greeting"></h1>
+        </div>
+
         <!--Clock-->
         <div class="clock__div">
-          <h1 id="Date">0000/00/00 ()</h1>
+          <h1 id="date">0000/00/00 ()</h1>
           <h2 id="clock">00:00:00</h2>
         </div>
 
@@ -31,10 +49,20 @@
         <div class="weather"></div>
 
         <!--TO DO List-->
+        <div class="todo">
+          <form id="todo-form">
+            <input type="text" placeholder="Write your plan📝" />
+          </form>
+          <ul id="todo-list"></ul>
+        </div>
       </div>
 
       <div class="right">
         <!--Quote-->
+        <div id="quote">
+          <span class="quote"></span>
+          <span class="author"></span>
+        </div>
       </div>
     </div>
     <script src="js/background.js"></script>
@@ -42,5 +70,6 @@
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/quote.js"></script>
   </body>
 </html>

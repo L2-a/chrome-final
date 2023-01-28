@@ -14,7 +14,7 @@ body {
   z-index: 0;
 }
 .image > img {
-  width: 100%;
+  width: 100vw;
   height: 160%;
   position: relative;
   bottom: 20%;
@@ -33,9 +33,36 @@ body {
 }
 .right {
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   width: 70vw;
   height: 100vh;
 }
 
+/*Log in*/
+.hidden {
+  display: none;
+}
+#login-form {
+  margin-top: 15px;
+}
+
+#login-form input {
+  text-align: center;
+  padding: 10px;
+}
+
 /*Clock*/
+
+/*Quote*/
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 35vw;
+}
+.quote,
+.author {
+  color: white;
+  font-size: 20px;
+}
