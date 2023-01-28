@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome-FINAL-Assignment</title>
+  </head>
+  <body>
+    <div class="image"></div>
+    <div class="content">
+      <div class="left">
+        <!--Login-->
+        <form id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="Please write your name"
+          />
+          <button>Log In</button>
+        </form>
+        <!--Clock-->
+        <div class="clock__div">
+          <h1 id="Date">0000/00/00 ()</h1>
+          <h2 id="clock">00:00:00</h2>
+        </div>
+
+        <!--Weather-->
+        <div class="weather"></div>
+
+        <!--TO DO List-->
+      </div>
+
+      <div class="right">
+        <!--Quote-->
+      </div>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
