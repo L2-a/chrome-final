@@ -22,26 +22,38 @@
 
 #todo-form input {
   outline: none;
-  font-family: "Lobster", cursive;
+  font-family: "Oswald", sans-serif;
   font-size: 150%;
   padding-bottom: 2%;
+  width: 20vw;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #todo-form input::placeholder {
-  font-family: "Lobster", cursive;
+  font-family: "Oswald", sans-serif;
   font-size: 150%;
   text-align: center;
   color: whitesmoke;
+  text-shadow: 2px 2px 2px gray;
 }
 
 /*Ul*/
 #todo-list {
   width: 80%;
+  overflow: scroll;
+}
+
+#todo-list::-webkit-scrollbar {
+  display: none;
 }
 
 #todo-list li {
   display: flex;
   justify-content: space-between;
+  font-family: "Oswald", sans-serif;
+  font-size: 140%;
+  margin-bottom: 3%;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #todo-list li button {

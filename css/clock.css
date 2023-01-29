@@ -19,6 +19,7 @@
   font-family: "Oswald", sans-serif;
   font-size: 150%;
   font-weight: 700;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #clock {
@@ -26,4 +27,5 @@
   font-family: "Oswald", sans-serif;
   font-size: 200%;
   font-weight: 900;
+  text-shadow: 2px 2px 2px gray;
 }

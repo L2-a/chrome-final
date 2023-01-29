@@ -31,16 +31,19 @@
   font-size: 20%;
   margin-right: 2%;
   font-family: "Lobster", cursive;
-  font-size: 140%;
+  font-size: 150%;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #login-form input::placeholder {
   color: whitesmoke;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #greeting {
   font-family: "Lobster", cursive;
-  font-size: 270%;
+  font-size: 200%;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #login-form button {
@@ -48,10 +51,12 @@
   font-size: 160%;
   color: whitesmoke;
   padding: 0;
+  text-shadow: 2px 2px 2px gray;
 }
 
 #login-form button:focus {
   color: rgb(7, 7, 37);
+  text-shadow: 2px 2px 2px gray;
 }
 
 #login-form input:hover,
