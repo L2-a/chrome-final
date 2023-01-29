@@ -60,5 +60,5 @@ const savedToDos = localStorage.getItem(TODOS_KEY);
 if (saveToDos !== null) {
   const parsedToDos = JSON.parse(savedToDos);
   toDos = parsedToDos;
-  parsedToDos.forEach(paintToDo);
+  parsedToDos.foreach(paintToDo);
 }
