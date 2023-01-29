@@ -11,6 +11,40 @@
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding: 3%;
+}
+
+#todo-form {
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+#todo-form input {
+  outline: none;
+  font-family: "Lobster", cursive;
+  font-size: 150%;
+  padding-bottom: 2%;
+}
+
+#todo-form input::placeholder {
+  font-family: "Lobster", cursive;
+  font-size: 150%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+/*Ul*/
+#todo-list {
+  width: 80%;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+}
+
+#todo-list li button {
+  border: none;
+  background: none;
 }
