@@ -55,8 +55,33 @@
   margin-bottom: 3%;
   text-shadow: 2px 2px 2px gray;
 }
+#todo-list li span {
+  text-align: start;
+  width: 70%;
+}
 
 #todo-list li button {
   border: none;
   background: none;
+}
+
+.checkbox {
+  text-decoration: line-through;
+}
+
+#todo-list li input {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  outline: none !important;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+  background: #fbfbfb;
+}
+
+#todo-list li input:checked {
+  background-color: #141413;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
